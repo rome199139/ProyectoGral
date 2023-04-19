@@ -1,0 +1,89 @@
+body {    
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(234, 234, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {    
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#logo {
+    width: 50%;
+    margin: 5px;
+
+}
+
+#login {    
+    width: 50%;
+    margin-left: 15%;
+    
+}
+
+h2 {
+    color: #009dff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+label {
+    font-size: large;
+}
+
+input {
+    border-radius: 6px;
+    border: 1.5px solid rgb(125, 213, 253);
+    height: 30px;
+    width: 92%;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 5px;     
+}
+
+input:focus{
+    border: 1px solid rgb(252, 143, 179);
+    outline: 0;    
+}
+
+a:-webkit-any-link{
+    color: #009dff;
+    text-decoration: none;
+
+}
+
+.txtder {
+    text-align: end;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-right: 13px;
+}
+
+.form-sesion {
+    padding: 40px;
+    border-radius: 12px;
+    width: 60%;
+    height: 60%;
+    margin: 5px;
+    padding: 12px;
+    background-color: white;
+    margin-top: 150px;
+}
+
+input[type="submit" i] {
+    background-color: rgb(122, 194, 58);
+    color: white;
+    font-weight: 700;
+    margin-left: 10px
+}
+
+h4 {
+    font-size: 15px;
+}
+
+p{
+    font-size: 14px;
+}
