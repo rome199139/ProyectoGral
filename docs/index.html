@@ -15,23 +15,22 @@
         <div id="login">
             <form class="form-sesion" id="login-form">
                 <h2>Inicio de sesión</h2>
-                <h4>¿Aun no tienes una cuenta? <a href="#crear">Créala aquí</a></h4>            
+                <h4 onclick="crear()">¿Aun no tienes una cuenta? <a href="#crear">Créala aquí</a></h4>            
                 <input type="text" id="usuario" name="usuario" required placeholder="Escribe tu usuario*"><br> 
                 <div class="txtder">
-                    <a href="#user">¿Olvidaste tu usuario?</a>
+                    <a href="#user" onclick="user()">¿Olvidaste tu usuario?</a>
                 </div> 
                 <input type="password" id="password" name="password" required placeholder="Escribe tu contraseña*"><br>  
                 <div class="txtder">
-                    <a href="#pass">¿Haz olvidado tu contraseña?</a>
+                    <a href="#pass" onclick="pass()">¿Haz olvidado tu contraseña?</a>
                 </div>
-                <input type="submit" value="Ingresar" class="btenvio"><br>    
-                <!--<button>Ingresar</button>-->
+                <input type="submit" value="Ingresar" class="btenvio"><br>
                 <br>
                 <hr>
-                <p>Al hacer clic en ingresar, estas aceptando nuestros <a href="#terminos">Términos y condiciones de uso</a></p>
-                <p><a href="#aviso">Aviso de privacidad integral</a></p>
+                <p id="demo">Al hacer clic en ingresar, estas aceptando nuestros <a href="https://www.uber.com/legal/es/document/?country=colombia&lang=es&name=general-terms-of-use">Términos y condiciones de uso</a></p>
+                <p><a href="https://www.sic.gov.co/ley-de-proteccion-de-datos">Aviso de privacidad integral</a></p>
             </form>
-        </div> 
+        </div>   
     </main>
     <script src="./app.js"></script>
 </body>
