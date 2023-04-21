@@ -1,0 +1,106 @@
+* {
+    background-color: #f1f4f9;
+}
+
+header {
+    display: flex;    
+    border: 1px solid #0af;
+    border-radius: 15px;
+}
+
+.botones {
+    margin-left: 580px; 
+    margin-top: 25px;   
+}
+
+.imagenes {
+    margin-left: 80px;
+    margin-top: 25px; 
+}
+
+#container-principal {
+    display: flex;
+    height: 600px;
+    padding-top: 5px;
+   
+}
+
+#opciones {
+    width: 15%;
+    background-color: #0af;
+    border-radius: 15px;
+    
+}
+
+.opc-men {
+    color: #fff;
+    font-size: 20px;
+    background-color: #0af;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+#accesos{
+    width: 85%;
+    border: 1px solid #0af;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.btnMenu  {
+    border-radius: 28px;
+    border: 1px solid #7ac23a;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    padding: 3px 15px;
+    text-decoration: none;
+    opacity: 1;
+    text-align: left;
+    font: 700 16px/20px;
+    letter-spacing: 0;
+    color: #7ac23a;
+}
+
+.lblEmpresa {
+    color: #0af;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: white;
+}
+
+.bienvenida {
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 30px;
+    background-color: white;
+    
+}
+
+.img-accesos {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 60px;
+    background-color: white;
+    display: inline-grid;
+}
+
+.fondo {
+    background-color: white;
+    cursor: pointer;
+}

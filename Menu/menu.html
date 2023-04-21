@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosmenu.css">
+    <title>Menu</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="lblEmpresa">
+                <label>Empresa de pruebas "Pepito Perez"</label>
+            </div>
+            <div class="botones">
+                <a class="btnMenu" onclick="crearOpcion()"> + Crear </a>
+                <a class="btnMenu" onclick="crearOpcion()"> Ayuda </a>
+            </div>
+            <div class="imagenes">
+                <img src="./imagenes/buscar.svg" alt="Buscar">
+                <img src="./imagenes/calendario.svg" alt="Calendario">
+                <img src="./imagenes/notificacion.svg" alt="Notificacion">
+                <img src="./imagenes/configuracion.svg" alt="Configuracion">
+            </div>
+        </header>
+        <div id="container-principal">
+            <section id="opciones">
+                <h2 class="opc-men" onclick="crearOpcion()">Ventas</h2>
+                <h2 class="opc-men" onclick="crearOpcion()">Compras</h2>
+                <h2 class="opc-men" onclick="crearOpcion()">Inventarios</h2>
+                <h2 class="opc-men" onclick="crearOpcion()">Cartera</h2>
+                <h2 class="opc-men" onclick="crearOpcion()">Contabilidad</h2>
+                <h2 class="opc-men" onclick="crearOpcion()">Informes</h2>
+            </section>
+            <section id="accesos">
+                <article>
+                    <div class="bienvenida">
+                        <label class="bienvenida" >Te damos la bienvenida. ¿Que deseas hacer?</label>
+                    </div>
+                    <div class="img-accesos">
+                        <img src="./imagenes/factura.svg" width="120px" alt="Factura" class="fondo" onclick="menuFactura()">
+                        <label class="fondo">Crear Factura</label>
+                    </div>    
+                    <div class="img-accesos">   
+                        <img src="./imagenes/compra.svg" width="120px" alt="Compra" class="fondo" onclick="crearOpcion()">
+                        <label class="fondo">Crear Compras</label>
+                    </div>    
+                    <div class="img-accesos">
+                        <img src="./imagenes/producto.svg" width="120px" alt="Producto" class="fondo" onclick="crearOpcion()">
+                        <label class="fondo">Crear Producto</label>                                            
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <script src="../app.js"></script>
+</body>
+</html>

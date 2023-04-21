@@ -63,8 +63,12 @@ function pass() {
      alert("Hola ... Digita como contraseña: abcd1234");     
   } 
 
+  function crearOpcion() {
+    alert("Hola ... Aqui se construira la opcion correspondiente!!!!");
+  }
+
  function menuFactura() {
-    window.open("./menuFactura.html");
+    window.open("../Factura/menuFactura.html");
  }
   
   
