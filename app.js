@@ -25,7 +25,7 @@ function validarLogin(e){
         if(newLogin === loginLocalStore.user && newPass === loginLocalStore.pass ){
         alert('Digito bien el usuario y contraseña... puede continuar');
         console.log("sigo pagina menu");
-        window.open("./menu.html");
+        window.open("./Menu/menu.html");
     }else if(numeroVeces <= 2 && numeroVeces > 0){        
         alert("Esos no son los datos de usuario y/o contraseña correctos, te quedan " + numeroVeces + " intentos");
         numeroVeces = numeroVeces - 1;
@@ -72,14 +72,3 @@ function pass() {
  }
   
   
-    /*if(numeroVeces <= 2 && numeroVeces > 0){        
-        if(newLogin === loginLocalStore.user && newPass === loginLocalStore.pass ){
-            console.log('Digito bien el usuario y contraseña... puede continuar');
-        }else {
-            alert("Esos no son los datos de usuario y/o contraseña correctos, te quedan " + numeroVeces + " intentos");
-            numeroVeces = numeroVeces - 1;
-            console.log(numeroVeces);                
-        }
-    }else if(numeroVeces === 0){
-        alert("Para ver los datos de usuario y contraseña de click en ¿Olvidaste tu usuario? y ¿Haz olvidado tu contraseña?");
-    }*/

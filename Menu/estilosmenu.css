@@ -28,8 +28,7 @@ header {
 #opciones {
     width: 15%;
     background-color: #0af;
-    border-radius: 15px;
-    
+    border-radius: 15px;    
 }
 
 .opc-men {
@@ -38,7 +37,7 @@ header {
     background-color: #0af;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 20px;   
 
 }
 
